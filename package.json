@@ -1,0 +1,20 @@
+{
+  "name": "davegray-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./chapter3/index.js",
+  "scripts": {
+    "dev": "nodemon ./chapter3/index",
+    "start": "node ./chapter3/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
