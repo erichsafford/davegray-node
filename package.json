@@ -2,16 +2,17 @@
   "name": "davegray-node",
   "version": "1.0.0",
   "description": "",
-  "main": "./chapter3/index.js",
+  "main": "./chapter5/server.js",
   "scripts": {
-    "dev": "nodemon ./chapter3/index",
-    "start": "node ./chapter3/index"
+    "dev": "nodemon ./chapter5/server",
+    "start": "node ./chapter5/server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Erich Gaul",
   "license": "ISC",
   "dependencies": {
     "date-fns": "^2.30.0",
+    "express": "^4.18.2",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
